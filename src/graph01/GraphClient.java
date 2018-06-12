@@ -8,7 +8,7 @@ import edu.princeton.cs.algs4.In;
 public class GraphClient {
 	
 	public static void main(String[] args) {
-		In in = new In("input.txt");
+		In in = new In("input2.txt");
 		int vertices = in.readInt();
 		int edges = in.readInt();
 		
@@ -20,16 +20,18 @@ public class GraphClient {
 		}
 		System.out.println(g);
 		System.out.println("DFS");
-		DepthFirstSearch dSearch = new DepthFirstSearch(g, 0);
+		int start = 0;
+		DepthFirstSearch dSearch = new DepthFirstSearch(g, start);
 		System.out.print("Visited:");
-		for(int v=0; v<vertices;v++) {
+		for(int v = 0; v < vertices;v++) {
 			if(dSearch.marked(v)) {
 				System.out.print(v + " ");
 			}
 		}
-		System.out.println("\nPath to 5");
-		for(int v=0; v<vertices;v++) {
-			System.out.print(0 + " to " + v + " :");
+		System.out.println("\nv = " + g.getVertices());
+		System.out.println("\nstart = " + start);
+		for(int v = 0; v < vertices;v++) {
+			System.out.print(start + " to " + v + " :");
 			for (int x : dSearch.pathTo(v)) {
 				System.out.print(x + " ");
 			}
@@ -44,7 +46,7 @@ public class GraphClient {
 			}
 		}
 		System.out.println("\nPath to 5");
-		for(int v=0; v<vertices;v++) {
+		for(int v = 0; v < vertices;v++) {
 			System.out.print(0 + " to " + v + " :");
 			for (int x : bSearch.pathTo(v)) {
 				System.out.print(x + " ");

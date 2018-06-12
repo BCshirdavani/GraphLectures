@@ -1,7 +1,6 @@
 package graph01;
 
 import edu.princeton.cs.algs4.Queue;
-import edu.princeton.cs.algs4.Stack;
 
 public class BreadthFirstSearch extends Search {
 

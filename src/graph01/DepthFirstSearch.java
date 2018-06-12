@@ -4,7 +4,6 @@ import edu.princeton.cs.algs4.Stack;
 
 public class DepthFirstSearch extends Search {
 
-	
 	public DepthFirstSearch(Graph g, int s) {
 		super(g, s);
 		search(s);

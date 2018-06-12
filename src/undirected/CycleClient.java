@@ -19,7 +19,7 @@ public class CycleClient {
 			g.createEdge(v, w);
 		}
 		CycleGraph cg = new CycleGraph(g);
-		System.out.println(cg.hasCycle());
+		System.out.println("Has cycle: " + cg.hasCycle());
 		
 	}
 

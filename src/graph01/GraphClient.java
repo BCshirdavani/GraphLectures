@@ -8,7 +8,8 @@ import edu.princeton.cs.algs4.In;
 public class GraphClient {
 	
 	public static void main(String[] args) {
-		In in = new In("input2.txt");
+//		In in = new In("input2.txt");
+		In in = new In("dinput.txt");
 		int vertices = in.readInt();
 		int edges = in.readInt();
 		
@@ -18,9 +19,11 @@ public class GraphClient {
 			int w = in.readInt();
 			g.createEdge(v, w);
 		}
+
 		System.out.println(g);
-		System.out.println("DFS");
-		int start = 0;
+
+		int start = 0;	//======================================	START
+		System.out.println("DFS(" + start + ")");
 		DepthFirstSearch dSearch = new DepthFirstSearch(g, start);
 		System.out.print("Visited:");
 		for(int v = 0; v < vertices;v++) {
@@ -29,7 +32,7 @@ public class GraphClient {
 			}
 		}
 		System.out.println("\nv = " + g.getVertices());
-		System.out.println("\nstart = " + start);
+
 		for(int v = 0; v < vertices;v++) {
 			System.out.print(start + " to " + v + " :");
 			for (int x : dSearch.pathTo(v)) {
@@ -37,17 +40,20 @@ public class GraphClient {
 			}
 			System.out.print("\n");
 		}
-		System.out.println("\nBFS");
-		BreadthFirstSearch bSearch = new BreadthFirstSearch(g, 0);
+
+
+		System.out.println("\nBFS(" + start + ")");
+		BreadthFirstSearch bSearch = new BreadthFirstSearch(g, start);
 		System.out.print("Visited:");
-		for(int v=0; v<vertices;v++) {
+		for(int v = 0; v < vertices;v++) {
 			if(bSearch.marked(v)) {
 				System.out.print(v + " ");
 			}
 		}
-		System.out.println("\nPath to 5");
+
+		System.out.println();
 		for(int v = 0; v < vertices;v++) {
-			System.out.print(0 + " to " + v + " :");
+			System.out.print(start + " to " + v + " :");
 			for (int x : bSearch.pathTo(v)) {
 				System.out.print(x + " ");
 			}

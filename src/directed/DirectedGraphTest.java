@@ -13,10 +13,11 @@ public class DirectedGraphTest {
 			int v = in.readInt();
 			int w = in.readInt();
 			dg.createDirectedEdge(v, w);
+			System.out.println("edge: " + v + "-> " + w);
 		}
-		System.out.println(dg);
+		System.out.println("Directed Graph:\n" + dg);
 		DirectedGraph rg = dg.reverse();
-		System.out.println(rg);
+		System.out.println("Reverse Graph:\n" + rg);
 	}
 
 }

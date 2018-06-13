@@ -23,23 +23,33 @@ public class DirectedCycle {
 	private void dfs(int v) {
 		marked[v] = true;
 		onStack[v] = true;
+		System.out.println("\tmarked["+v+"] = true,\n\tonStack["+v+"] = true");
 		for(int w:g.adj(v)) {
+			System.out.println("\tcycle == null: " + (cycle == null));
 			if(hasCycle()) return;
 			if(!marked[w]) {
+				System.out.println("\t" + v + " -> " + w);
 				edgeTo[w] = v;
+				System.out.println("dfs: " + w);
 				dfs(w);
 			}else if (onStack[w]) {
+				System.out.println("********* ON STACK FOUND: " + w + " **************");
 				cycle = new Stack<Integer>();
 				for(int x=v;x!=w;x=edgeTo[x]) {
 					cycle.push(x);
+					System.out.println("\t*\tpush: " + x);
 				}
 				cycle.push(w);
+				System.out.println("\t+\tpush: " + w);
 				cycle.push(v);
+				System.out.println("\t-\tpush: " + v);
 			}
 		}
+		System.out.println("\tonStack["+v+"] = false");
 		onStack[v] = false;
 	}
 	public boolean hasCycle() {
+
 		return cycle!=null;
 	}
 	

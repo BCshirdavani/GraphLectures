@@ -10,17 +10,18 @@ public class DirectedDFSTest {
 		In in = new In("tinyDG.txt");
 		int vertices = in.readInt();
 		int edges = in.readInt();
-		DirectedGraph g = new DirectedGraph(vertices);
-		for (int i = 0; i < vertices; i++) {
+		DirectedGraph dg = new DirectedGraph(vertices);
+		for (int i = 0; i < edges; i++) {
 			int v = in.readInt();
 			int w = in.readInt();
-			g.createDirectedEdge(v, w);
+			dg.createDirectedEdge(v, w);
+			System.out.println("edge: " + v + "-> " + w);
 		}
 		StdOut.println("Graph");
-		StdOut.println(g);
-		StdOut.print("Vertex:");
+		System.out.println("Directed Graph:\n" + dg);
+		StdOut.print("enter a vertex:");
 		int s = StdIn.readInt();
-		DirectedDFS dfs = new DirectedDFS(g, s);
+		DirectedDFS dfs = new DirectedDFS(dg, s);
 		for (int v = 0; v < vertices; v++) {
 			if(dfs.marked(v)) {
 				StdOut.print(v + " ");

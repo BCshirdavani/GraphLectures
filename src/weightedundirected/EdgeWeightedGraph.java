@@ -14,6 +14,7 @@ public class EdgeWeightedGraph {
 			adj[v] = new Bag<Edge>();
 		}
 	}
+
 	public void createEdge(Edge edge) {
 		int v = edge.either();
 		int w = edge.other(v);
@@ -21,6 +22,7 @@ public class EdgeWeightedGraph {
 		adj[w].add(edge);
 		edges++;
 	}
+
 	public Iterable<Edge> adj(int v){
 		return adj[v];
 	}

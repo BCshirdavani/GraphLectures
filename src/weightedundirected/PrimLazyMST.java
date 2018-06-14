@@ -21,16 +21,24 @@ public class PrimLazyMST {
 			Edge e = pq.delMin();
 			int v = e.either();
 			int w = e.other(v);
+			System.out.println("marked[v] && marked[w]" + v + " " + w + ": " + (marked[v] && marked[w]));
 			if(marked[v] && marked[w]) continue;
+			System.out.println("mst.enqueue(" + e + ")");
 			mst.enqueue(e);
 			weight += e.getWeight();
-			if(!marked[v]) 
+			if(!marked[v]){
+				System.out.println("\t!marked[v] = " + (!marked[v]));
 				visit(v);
-			if(!marked[w]) 
+			}
+			if(!marked[w]) {
+				System.out.println("\t!marked[w] = " + (!marked[w]));
 				visit(w);
+			}
 		}
 	}
+
 	private void visit(int v) {
+		System.out.println("\t\tvisit(" + v + ")");
 		marked[v] = true;
 		for (Edge e:g.adj(v)) {
 			int w = e.other(v);
@@ -39,10 +47,11 @@ public class PrimLazyMST {
 			}
 		}
 	}
+
 	public Iterable<Edge> edges(){
 		return mst;
 	}
-	public double weight() {
+	public double getWeight() {
 		return weight;
 	}
 

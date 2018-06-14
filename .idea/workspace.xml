@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bab46d73-2ed7-4f44-b9e8-4bf18de5255d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DAG02.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphLectures/directed/Topological.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphLectures/directed/Topological.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphLectures/directed/TopologicalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphLectures/directed/TopologicalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/directed/DepthFirstOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/directed/DepthFirstOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/directed/Topological.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/directed/Topological.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/directed/TopologicalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/directed/TopologicalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weightedundirected/EdgeWeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weightedundirected/EdgeWeightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weightedundirected/MSTClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weightedundirected/MSTClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weightedundirected/PrimLazyMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weightedundirected/PrimLazyMST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,44 +15,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.81255376">
+    <splitter split-orientation="horizontal" split-proportion="0.8867673">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.67713004">
+        <splitter split-orientation="horizontal" split-proportion="0.6232465">
           <split-first>
             <splitter split-orientation="horizontal" split-proportion="0.5067568">
               <split-first>
                 <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                  <file leaf-file-name="TopologicalTest.java" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/src/directed/TopologicalTest.java">
+                  <file leaf-file-name="MSTClient.java" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/src/weightedundirected/MSTClient.java">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="340">
-                          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file leaf-file-name="DepthFirstOrder.java" pinned="false" current-in-tab="true">
-                    <entry file="file://$PROJECT_DIR$/src/directed/DepthFirstOrder.java">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="867">
-                          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-                          <folding>
-                            <element signature="e#765#766#0" expanded="true" />
-                            <element signature="e#782#783#0" expanded="true" />
-                            <element signature="e#816#817#0" expanded="true" />
-                            <element signature="e#834#835#0" expanded="true" />
-                            <element signature="e#875#876#0" expanded="true" />
-                            <element signature="e#900#901#0" expanded="true" />
-                          </folding>
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file leaf-file-name="DirectedDFSTest.java" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/src/directed/DirectedDFSTest.java">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="255">
-                          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="57" />
+                        <state relative-caret-position="493">
+                          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
                         </state>
                       </provider>
                     </entry>
@@ -65,52 +35,38 @@
               </split-first>
               <split-second>
                 <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                  <file leaf-file-name="DirectedDFS.java" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/src/directed/DirectedDFS.java">
+                  <file leaf-file-name="EdgeWeightedGraph.java" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/src/weightedundirected/EdgeWeightedGraph.java">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="323">
-                          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+                        <state relative-caret-position="357">
+                          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
                           <folding>
-                            <element signature="e#507#508#0" expanded="true" />
-                            <element signature="e#530#531#0" expanded="true" />
+                            <element signature="e#521#522#0" expanded="true" />
+                            <element signature="e#541#542#0" expanded="true" />
+                            <element signature="e#602#608#0" expanded="true" />
+                            <element signature="e#779#780#0" expanded="true" />
+                            <element signature="e#798#799#0" expanded="true" />
+                            <element signature="e#826#827#0" expanded="true" />
+                            <element signature="e#848#849#0" expanded="true" />
                           </folding>
                         </state>
                       </provider>
                     </entry>
                   </file>
-                  <file leaf-file-name="DepthFirstSearch.java" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/src/graph01/DepthFirstSearch.java">
+                  <file leaf-file-name="KruskalMST.java" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/src/weightedundirected/KruskalMST.java">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="187">
-                          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+                        <state relative-caret-position="68">
+                          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
                         </state>
                       </provider>
                     </entry>
                   </file>
-                  <file leaf-file-name="DirectedCycle.java" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/src/directed/DirectedCycle.java">
+                  <file leaf-file-name="PrimEagerMST.java" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/src/weightedundirected/PrimEagerMST.java">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="250">
-                          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-                          <folding>
-                            <element signature="e#940#941#0" expanded="true" />
-                            <element signature="e#959#960#0" expanded="true" />
-                          </folding>
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                  <file leaf-file-name="Topological.java" pinned="false" current-in-tab="true">
-                    <entry file="file://$PROJECT_DIR$/src/directed/Topological.java">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="170">
-                          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-                          <folding>
-                            <element signature="e#350#351#0" expanded="true" />
-                            <element signature="e#369#370#0" expanded="true" />
-                            <element signature="e#395#396#0" expanded="true" />
-                            <element signature="e#420#421#0" expanded="true" />
-                          </folding>
+                        <state relative-caret-position="-13">
+                          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
                         </state>
                       </provider>
                     </entry>
@@ -121,35 +77,31 @@
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/graph01/Graph.java">
+              <file leaf-file-name="Edge.java" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/weightedundirected/Edge.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="153">
-                      <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+                    <state relative-caret-position="34">
+                      <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
                       <folding>
-                        <element signature="e#431#432#0" expanded="true" />
-                        <element signature="e#453#454#0" expanded="true" />
-                        <element signature="e#480#481#0" expanded="true" />
-                        <element signature="e#499#500#0" expanded="true" />
-                        <element signature="e#537#538#0" expanded="true" />
-                        <element signature="e#557#558#0" expanded="true" />
+                        <element signature="e#274#275#0" expanded="true" />
+                        <element signature="e#289#290#0" expanded="true" />
+                        <element signature="e#459#460#0" expanded="true" />
+                        <element signature="e#479#480#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="DirectedGraph.java" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/directed/DirectedGraph.java">
+              <file leaf-file-name="PrimLazyMST.java" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/weightedundirected/PrimLazyMST.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="306">
-                      <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+                    <state relative-caret-position="813">
+                      <caret line="49" selection-start-line="49" selection-end-line="49" />
                       <folding>
-                        <element signature="e#450#451#0" expanded="true" />
-                        <element signature="e#470#471#0" expanded="true" />
-                        <element signature="e#498#499#0" expanded="true" />
-                        <element signature="e#520#521#0" expanded="true" />
-                        <element signature="e#547#548#0" expanded="true" />
-                        <element signature="e#566#567#0" expanded="true" />
+                        <element signature="e#1092#1093#0" expanded="true" />
+                        <element signature="e#1109#1110#0" expanded="true" />
+                        <element signature="e#1138#1139#0" expanded="true" />
+                        <element signature="e#1158#1159#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -197,11 +149,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DAG02.txt" pinned="false" current-in-tab="true">
+          <file leaf-file-name="DAG02.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/DAG02.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="136">
-                  <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+                  <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mst.txt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/mst.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -251,6 +212,9 @@
         <option value="$PROJECT_DIR$/DAG02.txt" />
         <option value="$PROJECT_DIR$/src/directed/DepthFirstOrder.java" />
         <option value="$PROJECT_DIR$/src/directed/TopologicalTest.java" />
+        <option value="$PROJECT_DIR$/src/weightedundirected/MSTClient.java" />
+        <option value="$PROJECT_DIR$/src/weightedundirected/EdgeWeightedGraph.java" />
+        <option value="$PROJECT_DIR$/src/weightedundirected/PrimLazyMST.java" />
       </list>
     </option>
   </component>
@@ -282,7 +246,13 @@
               <item name="GraphLectures" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraphLectures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="directed" type="462c0819:PsiDirectoryNode" />
+              <item name="weighteddirected" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraphLectures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphLectures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="weightedundirected" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GraphLectures" type="b2602c69:ProjectViewProjectNode" />
@@ -318,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TopologicalTest">
+  <component name="RunManager" selected="Application.MSTClient">
     <configuration name="DirectedCycleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="directed.DirectedCycleTest" />
       <module name="GraphLectures" />
@@ -352,13 +322,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SymbolGraphTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="undirected.SymbolGraphTest" />
+    <configuration name="MSTClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="weightedundirected.MSTClient" />
       <module name="GraphLectures" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="undirected.*" />
+          <option name="PATTERN" value="weightedundirected.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,19 +386,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SymbolGraphTest" />
       <item itemvalue="Application.DirectedGraphTest" />
       <item itemvalue="Application.DirectedDFSTest" />
       <item itemvalue="Application.DirectedCycleTest" />
       <item itemvalue="Application.TopologicalTest" />
+      <item itemvalue="Application.MSTClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MSTClient" />
         <item itemvalue="Application.TopologicalTest" />
         <item itemvalue="Application.DirectedCycleTest" />
         <item itemvalue="Application.DirectedDFSTest" />
         <item itemvalue="Application.DirectedGraphTest" />
-        <item itemvalue="Application.SymbolGraphTest" />
       </list>
     </recent_temporary>
   </component>
@@ -455,14 +425,14 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.45035744" side_tool="true" visible="true" weight="0.26974666" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.45035744" side_tool="true" visible="true" weight="0.22503726" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.54964256" visible="true" weight="0.26974666" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.54964256" visible="true" weight="0.22503726" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07625099" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1056394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -482,73 +452,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movies2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/undirected/ConnectedComponentClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/undirected/CycleClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/undirected/SymbolGraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/undirected/ConnectedComponentDFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/undirected/SymbolGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graph01/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/undirected/CycleGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -811,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/directed/DirectedDFSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/undirected/ConnectedComponentDFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -836,21 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/directed/DirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simple.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -862,26 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAG02.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/directed/Topological.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,6 +769,118 @@
             <element signature="e#875#876#0" expanded="true" />
             <element signature="e#900#901#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/directed/DirectedDFSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/directed/Topological.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/directed/DirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weightedundirected/KruskalMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weightedundirected/PrimEagerMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weightedundirected/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAG02.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mst.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weightedundirected/EdgeWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#602#608#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weightedundirected/PrimLazyMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weightedundirected/MSTClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

@@ -17,12 +17,13 @@ public class MSTClient {
 			g.createEdge(edge);
 		}
 //		PrimEagerMST mstEagerFinder = new PrimEagerMST(g);
-//		PrimLazyMST mstFinder = new PrimLazyMST(g);
-		KruskalMST mstFinder = new KruskalMST(g);
+		PrimLazyMST mstFinder = new PrimLazyMST(g);
+//		KruskalMST mstFinder = new KruskalMST(g);
 		for(Edge e:mstFinder.edges()) {
 			System.out.println(e);
 		}
 		System.out.println(mstFinder.getWeight());
+
 	}
 
 }

@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bab46d73-2ed7-4f44-b9e8-4bf18de5255d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/straigt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAG02.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphLectures/directed/DirectedCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphLectures/directed/DirectedCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphLectures/directed/DirectedCycleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphLectures/directed/DirectedCycleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphLectures/directed/DirectedDFSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphLectures/directed/DirectedDFSTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphLectures/directed/DirectedGraphTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphLectures/directed/DirectedGraphTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/directed/DirectedCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/directed/DirectedCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/directed/DirectedCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/directed/DirectedCycleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/directed/DirectedDFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/directed/DirectedDFSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/directed/DirectedGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/directed/DirectedGraphTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GraphLectures/directed/Topological.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphLectures/directed/Topological.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GraphLectures/directed/TopologicalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphLectures/directed/TopologicalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/directed/DepthFirstOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/directed/DepthFirstOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/directed/Topological.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/directed/Topological.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/directed/TopologicalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/directed/TopologicalTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,30 +19,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8632846">
+    <splitter split-orientation="horizontal" split-proportion="0.81255376">
       <split-first>
         <splitter split-orientation="horizontal" split-proportion="0.67713004">
           <split-first>
             <splitter split-orientation="horizontal" split-proportion="0.5067568">
               <split-first>
                 <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                  <file leaf-file-name="ConnectedComponentClient.java" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/src/undirected/ConnectedComponentClient.java">
+                  <file leaf-file-name="TopologicalTest.java" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/src/directed/TopologicalTest.java">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="136">
-                          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="19" />
-                          <folding>
-                            <element signature="imports" expanded="true" />
-                          </folding>
+                        <state relative-caret-position="340">
+                          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
                         </state>
                       </provider>
                     </entry>
                   </file>
-                  <file leaf-file-name="DirectedCycleTest.java" pinned="false" current-in-tab="true">
-                    <entry file="file://$PROJECT_DIR$/src/directed/DirectedCycleTest.java">
+                  <file leaf-file-name="DepthFirstOrder.java" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/src/directed/DepthFirstOrder.java">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="459">
-                          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+                        <state relative-caret-position="867">
+                          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+                          <folding>
+                            <element signature="e#765#766#0" expanded="true" />
+                            <element signature="e#782#783#0" expanded="true" />
+                            <element signature="e#816#817#0" expanded="true" />
+                            <element signature="e#834#835#0" expanded="true" />
+                            <element signature="e#875#876#0" expanded="true" />
+                            <element signature="e#900#901#0" expanded="true" />
+                          </folding>
                         </state>
                       </provider>
                     </entry>
@@ -59,28 +61,10 @@
                       </provider>
                     </entry>
                   </file>
-                  <file leaf-file-name="DirectedGraphTest.java" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/src/directed/DirectedGraphTest.java">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="391">
-                          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
                 </leaf>
               </split-first>
               <split-second>
                 <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                  <file leaf-file-name="ConnectedComponentDFS.java" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/src/undirected/ConnectedComponentDFS.java">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="68">
-                          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
                   <file leaf-file-name="DirectedDFS.java" pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/src/directed/DirectedDFS.java">
                       <provider selected="true" editor-type-id="text-editor">
@@ -103,14 +87,29 @@
                       </provider>
                     </entry>
                   </file>
-                  <file leaf-file-name="DirectedCycle.java" pinned="false" current-in-tab="true">
+                  <file leaf-file-name="DirectedCycle.java" pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/src/directed/DirectedCycle.java">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="430">
-                          <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+                        <state relative-caret-position="250">
+                          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
                           <folding>
                             <element signature="e#940#941#0" expanded="true" />
                             <element signature="e#959#960#0" expanded="true" />
+                          </folding>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file leaf-file-name="Topological.java" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/src/directed/Topological.java">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="170">
+                          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+                          <folding>
+                            <element signature="e#350#351#0" expanded="true" />
+                            <element signature="e#369#370#0" expanded="true" />
+                            <element signature="e#395#396#0" expanded="true" />
+                            <element signature="e#420#421#0" expanded="true" />
                           </folding>
                         </state>
                       </provider>
@@ -142,7 +141,7 @@
               <file leaf-file-name="DirectedGraph.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/directed/DirectedGraph.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="219">
+                    <state relative-caret-position="306">
                       <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
                       <folding>
                         <element signature="e#450#451#0" expanded="true" />
@@ -171,21 +170,43 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/input.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="simple.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/simple.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="tinyDAG.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tinyDAG.txt">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+                </state>
+              </provider>
             </entry>
           </file>
-          <file leaf-file-name="straigt.txt" pinned="false" current-in-tab="true">
+          <file leaf-file-name="DAG02.txt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/DAG02.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="straigt.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/straigt.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="68">
@@ -226,6 +247,10 @@
         <option value="$PROJECT_DIR$/src/straign.txt" />
         <option value="$PROJECT_DIR$/src/directed/DirectedCycleTest.java" />
         <option value="$PROJECT_DIR$/src/directed/DirectedCycle.java" />
+        <option value="$PROJECT_DIR$/src/directed/Topological.java" />
+        <option value="$PROJECT_DIR$/DAG02.txt" />
+        <option value="$PROJECT_DIR$/src/directed/DepthFirstOrder.java" />
+        <option value="$PROJECT_DIR$/src/directed/TopologicalTest.java" />
       </list>
     </option>
   </component>
@@ -293,18 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DirectedCycleTest">
-    <configuration name="CycleClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="undirected.CycleClient" />
-      <module name="GraphLectures" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="undirected.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.TopologicalTest">
     <configuration name="DirectedCycleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="directed.DirectedCycleTest" />
       <module name="GraphLectures" />
@@ -345,6 +359,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="undirected.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TopologicalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="directed.TopologicalTest" />
+      <module name="GraphLectures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="directed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,19 +416,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CycleClient" />
       <item itemvalue="Application.SymbolGraphTest" />
       <item itemvalue="Application.DirectedGraphTest" />
       <item itemvalue="Application.DirectedDFSTest" />
       <item itemvalue="Application.DirectedCycleTest" />
+      <item itemvalue="Application.TopologicalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopologicalTest" />
         <item itemvalue="Application.DirectedCycleTest" />
         <item itemvalue="Application.DirectedDFSTest" />
         <item itemvalue="Application.DirectedGraphTest" />
         <item itemvalue="Application.SymbolGraphTest" />
-        <item itemvalue="Application.CycleClient" />
       </list>
     </recent_temporary>
   </component>
@@ -430,9 +455,9 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50119144" side_tool="true" visible="true" weight="0.26974666" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.45035744" side_tool="true" visible="true" weight="0.26974666" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988086" visible="true" weight="0.26974666" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.54964256" visible="true" weight="0.26974666" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -461,34 +486,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/input2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movies.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89573">
-          <caret line="4182" column="274" selection-start-line="4182" selection-start-column="274" selection-end-line="4182" selection-end-column="274" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dinput.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movies2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -638,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/input3.txt" />
     <entry file="file://$PROJECT_DIR$/src/undirected/CycleGraph.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -723,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/undirected/ConnectedComponentDFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/graph01/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -765,32 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/directed/DirectedDFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/directed/DirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/directed/Digraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
@@ -798,20 +755,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/directed/DirectedGraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/directed/DirectedDFSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -829,27 +772,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinyDAG.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/straigt.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/directed/DirectedCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+        <state relative-caret-position="250">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="e#940#941#0" expanded="true" />
             <element signature="e#959#960#0" expanded="true" />
@@ -859,8 +785,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/directed/DirectedCycleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/straigt.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/directed/DirectedGraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/directed/DirectedDFSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/undirected/ConnectedComponentDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/directed/DirectedDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/directed/DirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinyDAG.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DAG02.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/directed/Topological.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/directed/TopologicalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/directed/DepthFirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,7 +5,9 @@ import edu.princeton.cs.algs4.In;
 public class TopologicalTest {
 
 	public static void main(String[] args) {
-		In in = new In("input.txt");
+//		In in = new In("input.txt");
+//		In in = new In("tinyDAG.txt");
+		In in = new In("DAG02.txt");
 		int vertices = in.readInt();
 		int edges = in.readInt();
 		DirectedGraph g = new DirectedGraph(vertices);
@@ -16,7 +18,7 @@ public class TopologicalTest {
 		}
 		Topological topological = new Topological(g);
 		if(topological.isDAG())
-			System.out.println(topological.order());
+			System.out.println("\nTopo Order:\n" + topological.order());
 		else
 			System.out.println("it is not a DAG");
 	}

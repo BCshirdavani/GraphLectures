@@ -24,15 +24,21 @@ public class DepthFirstOrder {
 	}
 	private void dfs(int v) {
 		pre.enqueue(v);
+//		System.out.println("- order\tpre.enqueue(" + v + ")");
 		marked[v] = true;
+		System.out.println("* order\t\tmarked[" + v + "] = true");
 		for(int w:g.adj(v)) {
 			if(!marked[w]) {
 				dfs(w);
 			}
 		}
+		System.out.println("+ order\tpost.enqueue(" + v + ")");
 		post.enqueue(v);
+		System.out.println("- order\treversePost.push(" + v + ")");
 		reversePost.push(v);
 	}
+
+
 	public Iterable<Integer> pre(){
 		return pre;
 	}

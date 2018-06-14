@@ -3,6 +3,7 @@ package directed;
 public class Topological {
 	private DirectedGraph dg;
 	private Iterable<Integer> order;
+
 	public Topological(DirectedGraph dg) {
 		this.dg = dg;
 		DirectedCycle dc = new DirectedCycle(dg);

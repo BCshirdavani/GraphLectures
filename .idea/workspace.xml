@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bab46d73-2ed7-4f44-b9e8-4bf18de5255d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/weightedundirected/EdgeWeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weightedundirected/EdgeWeightedGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/weightedundirected/MSTClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weightedundirected/MSTClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weightedundirected/PrimLazyMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weightedundirected/PrimLazyMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weightedundirected/PrimEagerMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weightedundirected/PrimEagerMST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +24,8 @@
                   <file leaf-file-name="MSTClient.java" pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/src/weightedundirected/MSTClient.java">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="493">
-                          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+                        <state relative-caret-position="374">
+                          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
                         </state>
                       </provider>
                     </entry>
@@ -35,7 +34,7 @@
               </split-first>
               <split-second>
                 <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                  <file leaf-file-name="EdgeWeightedGraph.java" pinned="false" current-in-tab="true">
+                  <file leaf-file-name="EdgeWeightedGraph.java" pinned="false" current-in-tab="false">
                     <entry file="file://$PROJECT_DIR$/src/weightedundirected/EdgeWeightedGraph.java">
                       <provider selected="true" editor-type-id="text-editor">
                         <state relative-caret-position="357">
@@ -62,11 +61,14 @@
                       </provider>
                     </entry>
                   </file>
-                  <file leaf-file-name="PrimEagerMST.java" pinned="false" current-in-tab="false">
-                    <entry file="file://$PROJECT_DIR$/src/weightedundirected/PrimEagerMST.java">
+                  <file leaf-file-name="PrimLazyMST.java" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/src/weightedundirected/PrimLazyMST.java">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="-13">
-                          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                        <state relative-caret-position="109">
+                          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+                          <folding>
+                            <element signature="imports" expanded="true" />
+                          </folding>
                         </state>
                       </provider>
                     </entry>
@@ -80,8 +82,8 @@
               <file leaf-file-name="Edge.java" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/weightedundirected/Edge.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="34">
-                      <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                    <state relative-caret-position="85">
+                      <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
                       <folding>
                         <element signature="e#274#275#0" expanded="true" />
                         <element signature="e#289#290#0" expanded="true" />
@@ -92,16 +94,14 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="PrimLazyMST.java" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/weightedundirected/PrimLazyMST.java">
+              <file leaf-file-name="PrimEagerMST.java" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/weightedundirected/PrimEagerMST.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="813">
-                      <caret line="49" selection-start-line="49" selection-end-line="49" />
+                    <state relative-caret-position="301">
+                      <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
                       <folding>
-                        <element signature="e#1092#1093#0" expanded="true" />
-                        <element signature="e#1109#1110#0" expanded="true" />
-                        <element signature="e#1138#1139#0" expanded="true" />
-                        <element signature="e#1158#1159#0" expanded="true" />
+                        <element signature="imports" expanded="true" />
+                        <element signature="e#1097#1103#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -161,8 +161,8 @@
           <file leaf-file-name="mst.txt" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mst.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+                <state relative-caret-position="170">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -212,9 +212,10 @@
         <option value="$PROJECT_DIR$/DAG02.txt" />
         <option value="$PROJECT_DIR$/src/directed/DepthFirstOrder.java" />
         <option value="$PROJECT_DIR$/src/directed/TopologicalTest.java" />
-        <option value="$PROJECT_DIR$/src/weightedundirected/MSTClient.java" />
         <option value="$PROJECT_DIR$/src/weightedundirected/EdgeWeightedGraph.java" />
         <option value="$PROJECT_DIR$/src/weightedundirected/PrimLazyMST.java" />
+        <option value="$PROJECT_DIR$/src/weightedundirected/MSTClient.java" />
+        <option value="$PROJECT_DIR$/src/weightedundirected/PrimEagerMST.java" />
       </list>
     </option>
   </component>
@@ -258,6 +259,17 @@
               <item name="GraphLectures" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="GraphLectures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="algs4" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="GraphLectures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="algs4" type="70bed36:NamedLibraryElementNode" />
+              <item name="algs4.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -268,7 +280,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3034483" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -417,7 +429,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -456,13 +467,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/undirected/CycleGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/graph01/Search.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -814,37 +818,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/weightedundirected/PrimEagerMST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weightedundirected/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DAG02.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mst.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -864,23 +841,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/weightedundirected/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/IndexMinPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/weightedundirected/PrimLazyMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="109">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mst.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/weightedundirected/MSTClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="374">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weightedundirected/PrimEagerMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1097#1103#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

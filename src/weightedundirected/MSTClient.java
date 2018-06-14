@@ -16,9 +16,9 @@ public class MSTClient {
 			Edge edge = new Edge(v, w, weight);
 			g.createEdge(edge);
 		}
-		PrimEagerMST mstFinder = new PrimEagerMST(g);
+//		PrimEagerMST mstFinder = new PrimEagerMST(g);
 //		PrimLazyMST mstFinder = new PrimLazyMST(g);
-//		KruskalMST mstFinder = new KruskalMST(g);
+		KruskalMST mstFinder = new KruskalMST(g);
 		for(Edge e:mstFinder.edges()) {
 			System.out.println(e);
 		}

@@ -17,23 +17,27 @@ public class KruskalMST {
 		pq = new MinPQ<Edge>();
 		for (int v = 0; v < g.getVertices(); v++) {
 			for(Edge e:g.adj(v)) {
-				if(e.other(v)>v)
+				if(e.other(v) > v){
+//					System.out.println(e.other(v) + " > " + v + "\tpq inserting: " + e);
 					pq.insert(e);
+				}
 			}
 		}
 		uf = new UF(g.getVertices());
-		
-		while(!pq.isEmpty() && mst.size()<g.getVertices()-1) {
+		while(!pq.isEmpty() && mst.size() < g.getVertices()-1) {
 			Edge e = pq.delMin();
+			System.out.println("\tminPQ = " + e);
 			int v = e.either();
 			int w = e.other(v);
+			System.out.println(v + "-" + w + " connected?: " + (uf.connected(v, w)));
 			if(uf.connected(v, w)) continue;
 			uf.union(v, w);
+			System.out.println("mst enqueue: " + e);
 			mst.enqueue(e);
 			weight += e.getWeight();
 		}
-		
 	}
+
 	public Iterable<Edge> edges(){
 		return mst;
 	}
